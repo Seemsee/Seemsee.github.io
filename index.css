@@ -1,0 +1,53 @@
+body{
+  background-color:#ccd;
+  font-family: 'Slabo 27px', serif;
+}
+/*
+
+    font-family: 'Staatliches', cursive;
+
+    font-family: 'Slabo 27px', serif;
+
+*/
+#header{
+  text-align:center;
+  background-color:#aab;
+  padding:2vh;
+  margin:2%;
+  font-family: 'Staatliches', cursive;
+}
+#navbar{
+  margin:2%;
+  background-color:black;
+  margin-top:-2%;
+  color:#ddd;
+  overflow:hidden;
+}
+#navbar a{
+  float:left;
+  display:block;
+  padding: 14px 16px;
+  text-decoration:none;
+  color:#ccccf0;
+}
+#navbar a:hover{
+  background-color:white;
+  color:black;
+}
+#main-content{
+  height:500px;
+  background-color:#aab;
+  margin:3%;
+  width:74%;
+  float:left;
+}
+#left-bar{
+  float:left;
+  width:13%;
+  height:500px;
+  margin:2%;
+  margin-top:3%;
+  margin-right:0%;
+  background-color:#aab;
+  padding:10px;
+}
